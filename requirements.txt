@@ -1,0 +1,5 @@
+# Phase 1: only what we need to verify the setup
+python-dotenv
+qdrant-client
+psycopg2-binary
+redis
