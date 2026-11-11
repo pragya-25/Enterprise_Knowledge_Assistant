@@ -20,7 +20,7 @@ MAX_CHUNK_CHARS = 1800   # roughly 400-450 tokens
 OVERLAP_CHARS = 200
 MIN_CHUNK_CHARS = 120
 
-# Who may read which department (used for RBAC in Phase 5)
+# Who may read which department (used for RBAC)
 ROLES = ["employee", "manager", "engineer", "hr", "finance", "security", "admin"]
 DEPARTMENT_ACCESS = {
     "general": ROLES,
@@ -29,3 +29,15 @@ DEPARTMENT_ACCESS = {
     "security": ["security", "engineer", "admin"],
     "finance": ["finance", "admin"],
 }
+
+# ---- LLM (any OpenAI-compatible provider) ----
+LLM_API_KEY = os.getenv("LLM_API_KEY", "")
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
+LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+
+# ---- Retrieval / answering ----
+CANDIDATES_K = 8          # chunks fetched from Qdrant
+CONTEXT_K = 5             # chunks given to the LLM
+# If the best chunk scores below this, we refuse instead of guessing.
+# Tune it by looking at scores for in-scope vs out-of-scope questions.
+MIN_SCORE = float(os.getenv("MIN_SCORE", "0.55"))
