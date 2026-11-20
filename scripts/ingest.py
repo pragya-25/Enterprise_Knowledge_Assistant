@@ -26,8 +26,10 @@ def load_chunks():
         for f in sorted(dept_dir.glob("*.md")):
             text = f.read_text(encoding="utf-8", errors="ignore")
             fallback = f.stem.split("__")[-1].replace("-", " ").title()
+            eff_dept = "general" if f.name.startswith(config.GENERAL_PREFIXES) else dept
+            eff_roles = config.DEPARTMENT_ACCESS[eff_dept]
             for i, c in enumerate(chunk_markdown(text, fallback)):
-                c.update(department=dept, allowed_roles=roles,
+                c.update(department=eff_dept, allowed_roles=eff_roles,
                          source=f.name, chunk_index=i)
                 all_chunks.append(c)
         print(f"  loaded {dept}")

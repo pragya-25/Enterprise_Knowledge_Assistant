@@ -1,0 +1,320 @@
+[
+  {
+    "q": "How do I request time off and what types of time off exist?",
+    "expected": [
+      "people-group__time-off-and-absence__time-off-types.md",
+      "people-group__time-off-and-absence___index.md",
+      "people-group__time-off-and-absence__leave-types.md"
+    ]
+  },
+  {
+    "q": "What is the time away philosophy of the company?",
+    "expected": [
+      "people-group__time-off-and-absence__time-away-philosophy.md"
+    ]
+  },
+  {
+    "q": "How long is the probation period in an employment contract?",
+    "expected": [
+      "people-group__contracts-probation-periods.md"
+    ]
+  },
+  {
+    "q": "What are the steps when a team member leaves the company?",
+    "expected": [
+      "people-group__offboarding__offboarding_standards.md",
+      "people-group__offboarding___index.md",
+      "people-group__offboarding__faq.md"
+    ]
+  },
+  {
+    "q": "What is the process for relocating to another country?",
+    "expected": [
+      "people-group__relocation.md"
+    ]
+  },
+  {
+    "q": "How do visas work for team members?",
+    "expected": [
+      "people-group__visas.md"
+    ]
+  },
+  {
+    "q": "How should I give 360 feedback?",
+    "expected": [
+      "people-group__360-feedback.md",
+      "people-group__guidance-on-feedback.md"
+    ]
+  },
+  {
+    "q": "How are promotions and transfers handled?",
+    "expected": [
+      "people-group__promotions-transfers.md",
+      "people-group__promotion-document-style-guide.md"
+    ]
+  },
+  {
+    "q": "How do stock options work?",
+    "expected": [
+      "total-rewards__stock-options.md"
+    ]
+  },
+  {
+    "q": "How does the compensation review cycle work?",
+    "expected": [
+      "total-rewards__compensation__compensation-review-cycle___index.md",
+      "total-rewards__compensation___index.md"
+    ]
+  },
+  {
+    "q": "What mental health support is available through Modern Health?",
+    "expected": [
+      "total-rewards__benefits__modern-health.md"
+    ]
+  },
+  {
+    "q": "What is the right to disconnect policy in Ireland?",
+    "expected": [
+      "people-policies__ireland-ltd__right-to-disconnect-policy.md"
+    ]
+  },
+  {
+    "q": "What is the right to disconnect charter in France?",
+    "expected": [
+      "people-policies__france-sas__right-to-disconnect-charter.md"
+    ]
+  },
+  {
+    "q": "What benefits do team members in Singapore get?",
+    "expected": [
+      "total-rewards__benefits__general-and-entity-benefits__singapore-pte-ltd.md"
+    ]
+  },
+  {
+    "q": "What is in the parental leave toolkit?",
+    "expected": [
+      "total-rewards__benefits__parental-leave-toolkit.md"
+    ]
+  },
+  {
+    "q": "What is the Elevate leadership program?",
+    "expected": [
+      "people-group__learning-and-development__elevate-programs__elevate___index.md",
+      "people-group__learning-and-development__elevate-programs___index.md"
+    ]
+  },
+  {
+    "q": "What is the company mission?",
+    "expected": [
+      "company__mission.md"
+    ]
+  },
+  {
+    "q": "How does onboarding work for new remote team members?",
+    "expected": [
+      "company__culture__all-remote__onboarding.md",
+      "people-group__general-onboarding___index.md"
+    ]
+  },
+  {
+    "q": "What is an onboarding buddy?",
+    "expected": [
+      "people-group__general-onboarding__onboarding-buddies.md"
+    ]
+  },
+  {
+    "q": "How do live doc meetings work?",
+    "expected": [
+      "company__culture__all-remote__live-doc-meetings.md",
+      "company__culture__all-remote__meetings.md"
+    ]
+  },
+  {
+    "q": "What are the leave of absence rules in the United States?",
+    "expected": [
+      "people-policies__leave-of-absence__us.md",
+      "people-policies__leave-of-absence___index.md"
+    ]
+  },
+  {
+    "q": "What is the equal opportunity policy for India?",
+    "expected": [
+      "people-policies__india-ltd__india-eop-policy.md"
+    ]
+  },
+  {
+    "q": "What is neurodiversity and how does the company support neurodivergent team members?",
+    "expected": [
+      "company__culture__inclusion__neurodiversity-and-neuroinclusion__understanding-neurodivergence.md",
+      "company__culture__inclusion__neurodiversity-and-neuroinclusion__neurodiversity-resources.md"
+    ]
+  },
+  {
+    "q": "How do I submit a procurement request and what are tips for a Zip request?",
+    "expected": [
+      "finance__procurement__tips-for-submitting-a-zip-request.md",
+      "finance__procurement___index.md"
+    ]
+  },
+  {
+    "q": "What is the corporate credit card policy?",
+    "expected": [
+      "finance__accounts-payable__corp-credit-cards.md"
+    ]
+  },
+  {
+    "q": "How do expenses and reimbursements work?",
+    "expected": [
+      "finance__expenses.md",
+      "finance__spending-company-money.md"
+    ]
+  },
+  {
+    "q": "What is the policy for contingent workers?",
+    "expected": [
+      "finance__procurement__contingent-worker-policy.md"
+    ]
+  },
+  {
+    "q": "How do I get a mutual non-disclosure agreement signed with a vendor?",
+    "expected": [
+      "finance__procurement__vendor-guidelines__mutual-non-disclosure-agreement.md"
+    ]
+  },
+  {
+    "q": "What are the travel guidelines?",
+    "expected": [
+      "finance__travel___index.md",
+      "finance__travel__sponsored.md"
+    ]
+  },
+  {
+    "q": "How do I use a Coupa virtual card?",
+    "expected": [
+      "finance__accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md",
+      "finance__accounts-payable__tech-stack-guide-coupa.md",
+      "finance__procurement__coupa-faq.md"
+    ]
+  },
+  {
+    "q": "What are the password requirements?",
+    "expected": [
+      "security__policies_and_standards__password-standard.md",
+      "security__password-guidelines.md"
+    ]
+  },
+  {
+    "q": "What is the data classification standard?",
+    "expected": [
+      "security__policies_and_standards__data-classification-standard.md"
+    ]
+  },
+  {
+    "q": "What are the SLAs for fixing vulnerabilities?",
+    "expected": [
+      "security__product-security__vulnerability-management__sla.md",
+      "security__product-security__vulnerability-management___index.md"
+    ]
+  },
+  {
+    "q": "What is the security incident response process?",
+    "expected": [
+      "security__security-operations__sirt__sec-incident-response.md"
+    ]
+  },
+  {
+    "q": "How does PSIRT handle HackerOne reports?",
+    "expected": [
+      "security__product-security__psirt__runbooks__hackerone-process.md"
+    ]
+  },
+  {
+    "q": "How do I handle an S1P1 security issue?",
+    "expected": [
+      "security__product-security__psirt__runbooks__handling-s1p1.md"
+    ]
+  },
+  {
+    "q": "What is the phishing policy and how do I report phishing?",
+    "expected": [
+      "security__security-assurance__governance__phishing.md"
+    ]
+  },
+  {
+    "q": "How do YubiKeys and 2FA work?",
+    "expected": [
+      "security__corporate__systems__yubikey__2fa___index.md",
+      "security__corporate__systems__yubikey__purchasing___index.md"
+    ]
+  },
+  {
+    "q": "What are the red team rules of engagement?",
+    "expected": [
+      "security__security-operations__red-team__how-we-operate__rules-of-engagement.md",
+      "security__security-operations__red-team__how-we-operate___index.md"
+    ]
+  },
+  {
+    "q": "What is the token management standard?",
+    "expected": [
+      "security__policies_and_standards__token-management-standard.md"
+    ]
+  },
+  {
+    "q": "How do access reviews work?",
+    "expected": [
+      "security__security-assurance__security-compliance__access-reviews.md"
+    ]
+  },
+  {
+    "q": "How do I do threat modeling?",
+    "expected": [
+      "security__product-security__security-platforms-architecture__application-security__threat-modeling__howto.md",
+      "security__product-security__security-platforms-architecture__application-security__threat-modeling___index.md"
+    ]
+  },
+  {
+    "q": "How does code review work for engineers?",
+    "expected": [
+      "engineering__workflow__code-review.md"
+    ]
+  },
+  {
+    "q": "How is incident management handled for production?",
+    "expected": [
+      "engineering__infrastructure-platforms__incident-management___index.md"
+    ]
+  },
+  {
+    "q": "What is the change management process for infrastructure?",
+    "expected": [
+      "engineering__infrastructure-platforms__change-management___index.md"
+    ]
+  },
+  {
+    "q": "How does the secret manager design work?",
+    "expected": [
+      "engineering__architecture__design-documents__secret_manager___index.md",
+      "engineering__development__sec__security-platform__secrets-manager___index.md"
+    ]
+  },
+  {
+    "q": "How do runner tokens work?",
+    "expected": [
+      "engineering__architecture__design-documents__runner_tokens___index.md"
+    ]
+  },
+  {
+    "q": "What is GitLab Dedicated?",
+    "expected": [
+      "engineering__infrastructure-platforms__gitlab-dedicated___index.md",
+      "company__working-groups__gitlab-dedicated.md"
+    ]
+  },
+  {
+    "q": "How is capacity planning done?",
+    "expected": [
+      "engineering__infrastructure-platforms__capacity-planning.md"
+    ]
+  }
+]

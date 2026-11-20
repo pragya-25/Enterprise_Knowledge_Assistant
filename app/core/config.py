@@ -1,4 +1,4 @@
-import os
+﻿import os
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -41,3 +41,8 @@ CONTEXT_K = 5             # chunks given to the LLM
 # If the best chunk scores below this, we refuse instead of guessing.
 # Tune it by looking at scores for in-scope vs out-of-scope questions.
 MIN_SCORE = float(os.getenv("MIN_SCORE", "0.55"))
+GENERAL_PREFIXES = ("people-policies__", "total-rewards__")
+
+LLM_FALLBACK_API_KEY = os.getenv("LLM_FALLBACK_API_KEY", "")
+LLM_FALLBACK_BASE_URL = os.getenv("LLM_FALLBACK_BASE_URL", "https://api.groq.com/openai/v1")
+LLM_FALLBACK_MODEL = os.getenv("LLM_FALLBACK_MODEL", "llama-3.3-70b-versatile")
